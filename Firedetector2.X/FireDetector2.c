@@ -8,7 +8,6 @@
 #pragma config WDT = OFF
 #pragma config LVP = OFF
 #pragma config BOREN = OFF
-
 #pragma config CCP2MX = PORTBE
 
 #define RED_LED         PORTDbits.RD7 
