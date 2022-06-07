@@ -141,7 +141,7 @@ unsigned int people = 0 ;
             FAN_EN = 0;
             RED_LED = 0;
         }
-//
+
         if(ENTERBUTTON == 0){                                                   
             people+=1;  
         }
@@ -180,8 +180,8 @@ unsigned int people = 0 ;
         }
 
  printf ("Flame Sensor Voltage = %f F \r\n", voltage_mv1);                      // print out flame sensor voltage
- //printf ("Motion1 Voltage = %d V \r\n\n", voltage_mv2);       
-// printf ("Motion2 Voltage = %d V \r\n\n", voltage_mv3);      
+//printf ("Motion1 Voltage = %d V \r\n\n", voltage_mv2);       
+//printf ("Motion2 Voltage = %d V \r\n\n", voltage_mv3);      
  Delay_One_Sec();                                  //Delay One Sec to see TeraTerm results slower 
     } 
 }
