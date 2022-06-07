@@ -1,4 +1,4 @@
-# Fire-Detector 
+# Fire Detector 
 by Benson Thong
 
 ## Project Description
