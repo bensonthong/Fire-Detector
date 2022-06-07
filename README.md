@@ -15,7 +15,7 @@ by Benson Thong
 - Buzzer
 
 ### Software Used 
-- MPLAB X IDE v4.20 was used to program the PICkit4 in order to debug the hardware and software for the pic18f4820 microcontroller. The code can be found in the path ```Firedetector2.X/FireDetector2.c```
+- MPLAB X IDE v4.20 was used to program the PICkit4 in order to debug the hardware and software for the pic18f4820 microcontroller. The code was built using C and can be found in the path ```Firedetector2.X/FireDetector2.c```
 - Concepts used for this project to work: uart, external interrupts, software ADC, and system timer.
   - uart was used to view the ADC voltage when a flame sensor is triggered.
   - external interrupts is used to allow a manual alarm to trigger in the case the flame sensor malfunctions.
